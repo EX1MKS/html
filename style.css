@@ -1,0 +1,27 @@
+.pp img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 1s;
+    margin-top: 20px;
+}
+
+body{
+    background-color: rgb(24, 81, 142);
+}
+.data{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+.pp img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    border-radius: 0%;
+
+}
+.isi{
+    justify-self: center;
+}
